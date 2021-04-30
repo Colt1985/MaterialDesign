@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bcd87e7-c89f-4fcc-85cc-b00a00e339c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="LessonHome" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="LessonHome" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="be766bb1-18bc-43f5-b2a5-173277bfd541" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="orig" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="Colt1985" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="MaterialDesign" />
+  </component>
+  <component name="ProjectId" id="1rpObXa14yI7bhTXNvX0SyxXURD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/Alex/Desktop/MaterialDesign-master/app/src/main/java/com/example/materialdesign/ui/api/apibottom/view/EquilateralImageView.kt_SELECTED" value="EquilateralImageView" />
+    <property name="android-custom-viewC:/Users/Alex/Desktop/MaterialDesign-master/app/src/main/java/com/example/materialdesign/util/EquilateralImageView.kt_SELECTED" value="EquilateralImageView" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/Alex/Desktop/MaterialDesign-master/app/src/main/java/com/example/materialdesign/ui/api/apibottom/view/EquilateralImageView.kt_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/Alex/Desktop/MaterialDesign-master/app/src/main/java/com/example/materialdesign/util/EquilateralImageView.kt_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.example.materialdesign" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.materialdesign.ui.api.apibottom" />
+      <recent name="com.example.materialdesign.ui.picture" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\res\xml" />
+      <recent name="C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\res" />
+      <recent name="C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\java\com\example\materialdesign\ui\api\apibottom" />
+      <recent name="C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\res\layout" />
+      <recent name="C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\java\com\example\materialdesign\ui\picture" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\res\drawable-v24" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="MaterialDesign.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bcd87e7-c89f-4fcc-85cc-b00a00e339c2" name="Default Changelist" comment="" />
+      <created>1619669636177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619669636177</updated>
+    </task>
+    <task id="LOCAL-00001" summary="дз">
+      <created>1619768147759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619768147759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="дз">
+      <created>1619769115898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619769115898</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homework">
+      <created>1619769290511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619769290511</updated>
+    </task>
+    <task id="LOCAL-00004" summary="homework">
+      <created>1619770476802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619770476802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Внесены изменения">
+      <created>1619770844353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619770844353</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Внесены изменения">
+      <created>1619771788334</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619771788334</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Внесены изменения">
+      <created>1619772746620</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619772746620</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="дз" />
+    <MESSAGE value="homework" />
+    <MESSAGE value="Внесены изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внесены изменения" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1619759204549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1619759204549" />
+    <state x="845" y="383" key="#Notifications" timestamp="1619768340364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1619768340364" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619759603441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619759603441" />
+    <state x="540" y="275" width="840" height="486" key="AndroidCreateResourceFileDialog" timestamp="1619684578469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" width="840" height="486" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619684578469" />
+    <state x="566" y="98" key="CommitChangelistDialog2" timestamp="1619772746060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="566" y="98" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619772746060" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619774738602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619774738602" />
+    <state x="739" y="387" key="Github.CreatePullRequestDialog" timestamp="1619772884728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="387" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619772884728" />
+    <state x="826" y="418" key="Github.ShareDialog" timestamp="1619768381947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="826" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619768381947" />
+    <state width="1876" height="237" key="GridCell.Tab.0.bottom" timestamp="1619768583655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619768583655" />
+    <state width="1876" height="237" key="GridCell.Tab.0.center" timestamp="1619768583655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619768583655" />
+    <state width="1876" height="237" key="GridCell.Tab.0.left" timestamp="1619768583655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619768583655" />
+    <state width="1876" height="237" key="GridCell.Tab.0.right" timestamp="1619768583655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619768583655" />
+    <state x="501" y="170" key="SettingsEditor" timestamp="1619767725594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="501" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619767725594" />
+    <state x="790" y="389" key="VCS.EditChangelistDialog" timestamp="1619767944547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619767944547" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619772814072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619772814072" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1619774621172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619774621172" />
+  </component>
+</project>

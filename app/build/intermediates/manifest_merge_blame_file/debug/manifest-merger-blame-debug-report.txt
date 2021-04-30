@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.materialdesign"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:6:5-20:19
+14        android:allowBackup="true"
+14-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\68600a5be4367d49d50b69b04e4caf8f\core-1.3.2\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:9:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:10:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:11:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.AndroidMaterialDesign" >
+23-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:12:9-59
+24        <activity android:name="com.example.materialdesign.ui.MainActivity" >
+24-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:13:9-19:20
+24-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:13:19-50
+25            <intent-filter>
+25-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:14:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:15:17-69
+26-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:17:17-77
+28-->C:\Users\Alex\Desktop\MaterialDesign-master\app\src\main\AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[io.coil-kt:coil:0.9.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\1256453de0f59c4f488fc5b703ad409f\jetified-coil-0.9.2\AndroidManifest.xml:10:9-13:40
+33            android:name="coil.util.CoilContentProvider"
+33-->[io.coil-kt:coil:0.9.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\1256453de0f59c4f488fc5b703ad409f\jetified-coil-0.9.2\AndroidManifest.xml:11:13-57
+34            android:authorities="com.example.materialdesign.coil"
+34-->[io.coil-kt:coil:0.9.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\1256453de0f59c4f488fc5b703ad409f\jetified-coil-0.9.2\AndroidManifest.xml:12:13-56
+35            android:exported="false" />
+35-->[io.coil-kt:coil:0.9.2] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\1256453de0f59c4f488fc5b703ad409f\jetified-coil-0.9.2\AndroidManifest.xml:13:13-37
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\976d240aa59cda374cf775f635d1e248\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\976d240aa59cda374cf775f635d1e248\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+38            android:authorities="com.example.materialdesign.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\976d240aa59cda374cf775f635d1e248\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\976d240aa59cda374cf775f635d1e248\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\976d240aa59cda374cf775f635d1e248\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+41    </application>
+42
+43</manifest>
