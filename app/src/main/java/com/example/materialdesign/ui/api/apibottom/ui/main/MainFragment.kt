@@ -31,7 +31,7 @@ import com.example.materialdesign.ui.api.apibottom.ui.viewpager.ViewPagerAdapter
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.android.synthetic.main.main_fragment.*
 
-
+//
 class MainFragment : Fragment() {
 
     private val viewModel: MainViewModel by lazy {
