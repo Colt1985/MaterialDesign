@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AndroidMaterialDesign" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DefaultTheme" parent="Theme.AndroidMaterialDesign">
+        <item name="colorPrimary">#3E3D3D</item>
+        <item name="colorPrimaryVariant">#9f0000</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorAccent">#5A5A5A</item>
+        <item name="colorBackgroundBottomSheet">@color/background</item>
+        <item name="colorOnPrimaryBootomSheet">@color/black</item>
+    </style>
+
+    <style name="MarsTheme" parent="Theme.AndroidMaterialDesign">
+        <item name="colorPrimary">#d84315</item>
+        <item name="colorPrimaryVariant">#9f0000</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorAccent">#ff7543</item>
+        <item name="colorBackgroundBottomSheet">@color/grey_dark</item>
+        <item name="colorOnPrimaryBootomSheet">@color/black</item>
+    </style>
+
+    <style name="SpaceTheme" parent="Theme.AndroidMaterialDesign">
+        <item name="colorPrimary">#000099</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">#330066</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorBackgroundBottomSheet">@color/blue_light</item>
+        <item name="colorOnPrimaryBootomSheet">@color/white</item>
+    </style>
+
+
+</resources>
