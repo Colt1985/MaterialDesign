@@ -57,6 +57,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1013,10 +1017,6 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
-color colorAccent
-color colorAccent40Alfa
-color colorPrimary
-color colorPrimaryDark
 color color_gray
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
@@ -1157,6 +1157,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color orange_light
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1284,6 +1285,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen corner_radius_card_view
 dimen default_dimension
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
@@ -1337,6 +1339,7 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen header_text_size_on_card_view
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -1348,6 +1351,12 @@ dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
 dimen main_fragment_padding
+dimen margin_card_view_on_recycler
+dimen margin_fab_on_recycler_activity
+dimen margin_start_edit_text_on_card_view
+dimen margin_start_tv_on_card_view
+dimen margin_top_edit_text_on_card_view
+dimen margin_top_tv_on_card_view
 dimen material_clock_display_padding
 dimen material_clock_face_margin_top
 dimen material_clock_hand_center_dot_radius
@@ -1609,6 +1618,7 @@ dimen test_navigation_bar_shadow_height
 dimen test_navigation_bar_text_size
 dimen text_date_size
 dimen text_input_wiki_layout_width
+dimen text_size_edit_text_on_card_view
 dimen text_view_description_bottom_sheet_layout_padding
 dimen text_view_description_bottom_sheet_text_size
 dimen text_view_descriptionheader_bottom_sheet_layout_margin_top
@@ -1730,6 +1740,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable errorimage
+drawable formatimage
 drawable ic_archive
 drawable ic_back_fab
 drawable ic_clock_black_24dp
@@ -1786,11 +1798,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable swipe_indicator_active
-drawable swipe_indicator_passive
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font almendra
+font edgeregular
+font spantaran
+font vidaloka
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1866,6 +1880,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id animation
 id arc
 id asConfigured
 id async
@@ -1900,7 +1915,6 @@ id chip
 id chip1
 id chip2
 id chip3
-id chip_default_theme
 id chip_group
 id chip_mars_theme
 id chip_space_theme
@@ -1994,6 +2008,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id image_view_day
 id image_view_today
 id image_view_yesterday
 id info
@@ -2079,6 +2094,7 @@ id never
 id noScroll
 id none
 id normal
+id notes
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -2105,6 +2121,12 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerActivityFAB
+id recyclerView
+id recycler_header
+id recycler_item_linear_layout
+id recycler_view_item_edit_text
+id recycler_view_item_text
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2297,6 +2319,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_recycler
 layout bottom_sheet
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2314,6 +2337,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_day
 layout fragment_settings
 layout fragment_today
 layout fragment_yesterday
@@ -2378,6 +2402,8 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_header
+layout recycler_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2431,6 +2457,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string bottom_menu_item_notes
 string bottom_menu_settings
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
@@ -2438,7 +2465,6 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
-string chip_text_theme_default
 string chip_text_theme_one
 string chip_text_theme_two
 string clear_text_end_icon_content_description
@@ -2513,6 +2539,7 @@ string path_password_strike_through
 string search_menu_title
 string search_wiki
 string status_bar_notification_info_overflow
+string text_example
 string text_view_description_bottom_sheet_text
 string text_view_descriptionheader_bottom_sheet_text
 string wiki_helper_text
@@ -2915,6 +2942,7 @@ style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
 style TextInputLayoutForWiki
+style TextViewDatePicture
 style TextViewDescriptionBottomSheet
 style TextViewDescriptionHeaderBottomSheet
 style Theme_AndroidMaterialDesign
